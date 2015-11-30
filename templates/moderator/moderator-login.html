@@ -1,0 +1,19 @@
+<form class="form-horizontal" name="moderatorLogin" ng-submit="moderatorLogin.$valid && loginForm(moderator)" novalidate>
+    <div class="form-group">
+    <label for="username" class="col-sm-3 control-label">Username</label>
+    <div class="col-sm-6">
+    <input type="text" ng-model="moderator.moderator_id" class="form-control" id="moderator_id" placeholder="Username" required/>
+    </div>
+</div>
+<div class="form-group">
+    <label for="fname" class="col-sm-3 control-label">Password</label>
+    <div class="col-sm-6">
+    <input type="password" ng-model="moderator.password" class="form-control" id="firstName" placeholder="Password" required/>
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset-3 col-sm-9">
+    <button type="submit" class="btn btn-primary">Login</button>
+    <a href="#/newModerator" class="btn btn-primary" role="button">New User?</a>
+</div>
+</form>

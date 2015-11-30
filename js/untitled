@@ -1,0 +1,7 @@
+$http.get('http://localhost:8080/voteapp/votes')
+	 .success(function(response){
+	 	$scope.votes = response;
+	 })
+	 .error(function(){
+	 	alert("error");
+	 });

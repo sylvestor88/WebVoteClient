@@ -1,0 +1,39 @@
+<form class="form-horizontal" name="voteForm" ng-submit="voteForm.$valid && submitForm()" novalidate>
+    <div class="form-group">
+    <label for="username" class="col-sm-3 control-label">Username</label>
+    <div class="col-sm-6">
+        <input type="text" ng-model="vote.moderator_id" class="form-control" id="moderator_id" placeholder="Username" required/>
+    </div>
+</div>
+<div class="form-group">
+    <label for="fname" class="col-sm-3 control-label">Poll Title</label>
+    <div class="col-sm-6">
+        <input type="text" ng-model="vote.title" class="form-control" id="title" placeholder="Poll Title" required/>
+    </div>
+</div>
+<div class="form-group">
+    <label for="lname" class="col-sm-3 control-label">Poll Description</label>
+    <div class="col-sm-6">
+        <textarea ng-model="vote.description" class="form-control" id="description" placeholder="Poll Description"></textarea>
+    </div>
+</div>
+<div class="form-group">
+    <label for="email" class="col-sm-3 control-label">Poll Start Date</label>
+    <div class="col-sm-6">
+        <input type="datetime-local" ng-model="vote.start_date" class="form-control" id="start_date" required/>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="password" class="col-sm-3 control-label">Poll End Date</label>
+    <div class="col-sm-6">
+        <input type="datetime-local" ng-model="vote.end_date" class="form-control" id="end_date" required/>
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="col-sm-offset-3 col-sm-9">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+</form>

@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+.row {
+    width: 100%;
+}
+.col-lg-12 {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width:100%;
+}
+
+.navbar{
+    margin:0;
+    padding:0;
+}
+
+.row{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.ng-invalid.ng-dirty {
+    border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+    border-color: #78FA89;
+}
+
+.row .exp-thumbnails {
+    box-shadow:0;
+    border-radius:25px;
+}
+
+.h-height{
+    line-height: 70%;
+}
+
+.skills{
+    margin: 0px;
+    padding: 0px;
+}
+
+.voteAnchor{
+    font-size: 20px;
+    margin:0px;
+    padding:0px;
+}

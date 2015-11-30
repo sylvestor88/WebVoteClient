@@ -1,0 +1,9 @@
+<div class="row" style="margin-bottom:0px;">
+  <div class="col-sm-offset-1 col-sm-10 panel panel-default">
+    <h3>{{ vote.title }}</h3>
+    <p>{{ vote.description }}</p>
+    <p><strong>Start Date: </strong>{{ vote.start_date | datetime }}<p>
+    <p><strong>End Date: </strong>{{ vote.end_date | datetime }}</p>
+    <p><a ng-hide="vote.end_date < current || vote.start_date > current" ng-click="registerVote(vote, 1)" class="btn btn-success btn-lg" role="button">Yes</a> <a ng-hide="vote.end_date < current || vote.start_date > current" ng-click="registerVote(vote, 0)" class="btn btn-danger btn-lg" role="button">No</a></p>
+  </div>
+</div>
