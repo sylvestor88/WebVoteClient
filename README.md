@@ -8,5 +8,5 @@ To Post polls, users need to sign up to become a Moderator. The moderators can t
 
 The client application is currently up and running on Cloud9 instance which interacts with the server running on EC2 instance. The client is running on below instance:
 ```sh
-[http://angularclient-sylvestor88.c9users.io/index.html]
+http://angularclient-sylvestor88.c9users.io/index.html
 ```
