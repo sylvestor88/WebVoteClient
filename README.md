@@ -13,5 +13,5 @@ The client accesses the services that are currenty running on EC2 instance. The 
 
 The client application should also be running live on cloud 9 instance and can be accessed using the below link:
 ```sh
-http://angularclient-sylvestor88.c9users.io/index.html
+    http://angularclient-sylvestor88.c9users.io/index.html
 ```
