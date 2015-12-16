@@ -1,12 +1,17 @@
 # WebVoteClient
 
 #### What?
-The VoteApp allows users to Post Polls they want people to vote for either as Yes/No (the app will later allow users to provide multiple options to choose). The link to these Polls can then be shared with people for them to cast their votes for an active Poll. The Moderators can then check the result of these Polls once they log in. This is a very simple app with no advanced security features to demonstrate consumption of REST resources through AngularJS.
+The VoteApp allows user to Post Polls that they would like people to vote for either as Yes/No (the app will later allow users to provide multiple options to choose). The link to these Polls can then be shared with people from where they can register their votes for an active Poll. The Moderators can then check the result of these Polls once they log in. 
 
 #### How?
-To Post polls, users need to sign up to become a Moderator. The moderators can then create any number of Polls they wish to post and share the link with people to vote. Voters do not require to sign in to vote for on a poll. The application does not restrict people to cast multiple votes.
+To Post polls, user need to sign up to become a Moderator. The moderator can then create any number of polls he/she wishes to post and share the link with other people. Voters do not require to sign up to vote for a poll. The application does not restrict people to cast multiple votes.
 
-The client application is currently up and running on Cloud9 instance which interacts with the server running on EC2 instance. The client is running on below instance:
+The client accesses the services that are currenty running on EC2 instance. The source code of the REST services is in the repository:
+```sh
+    https://github.com/sylvestor88/WebVoteServer.git
+```
+
+The client application should also be running live on cloud 9 instance and can be accessed using the below link:
 ```sh
 http://angularclient-sylvestor88.c9users.io/index.html
 ```
